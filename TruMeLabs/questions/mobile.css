@@ -1,0 +1,7 @@
+@media screen and (max-width: 450px) {
+    .container {
+        margin: 0 auto;
+        padding: 4rem;
+        width: auto;
+    }
+}

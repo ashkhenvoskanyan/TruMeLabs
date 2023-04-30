@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>FAQ – Trume Labs</title>
+</head>
+
+<body>
+
+    <div>
+        <header>
+            <div id="logo" class="logo">
+                <a href="../index.html">
+                    <img loading="lazy" style="max-width: 291px; max-height: 73px; width: 100px"
+                    src="//cdn.shopify.com/s/files/1/0624/5869/1805/files/Artboard_18_2x_edb32ed9-a948-4ee3-80b4-91be8a541667_1445x.png?v=1661537334"
+                    alt="Trume Labs" itemprop="logo">
+                </a>
+                
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" id="hamburger" aria-label="menu button">
+                    <label for="hamburger"><span></span></label>
+
+                    <nav aria-label="main navigation">
+                        <ul class="menus">
+                            <li><a data-i18n="menus.home" href="../index.html">Home</a></li>
+                            <li>
+                                <button data-i18n="menus.help+info" type="button" aria-haspopup="true"
+                                    aria-expanded="true" aria-controls="dropdown1">
+                                    Help + Info<span class="arrow"></span>
+                                </button>
+                                <ul class="dropdown" id="dropdown1">
+                                    <li><a href="../questions/">FAQ</a></li>
+                                    <li><a href="../instruction/">Collection Instructions</a></li>
+                                </ul>
+                            </li>
+                            <select id="lang-switcher" class="change-lang">
+                                <option value="am">ARM</option>
+                                <option value="ru">RUS</option>
+                                <option value="en">ENG</option>
+                            </select>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container">
+            <h2 style="text-align: center;">Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question1"
+                            class="accordion-title">How accurate are
+                            my results?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer1">The technology we use measures your DNA methylation at
+                            only a tiny fraction of the billions of nucleotides (the components that make up your DNA)
+                            and are subject to statistical error. Based on our studies, we have an approximately 3.8
+                            years error rate. Please note that the test is not intended to tell you anything about your
+                            current state of health, or to be used to make medical decisions, including whether or not
+                            you should take a medication, how much of a medication you should take, or determine any
+                            treatment.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question2"
+                            class="accordion-title">Should you brush your teeth before collecting saliva?</span><span
+                            class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer2">Do not eat, drink (anything but water), smoke, chew gum,
+                            brush your teeth, or use mouthwash for at least 30 minutes prior to providing your sample.
+                            For the best results please make sure you're well hydrated. Collect a small amount of saliva
+                            in the clean spoon, and then transfer a small amount of saliva in each circle of your sample
+                            collection kit. Allow you alive to dry for at least 40 min. The chemicals of the filter
+                            paper would lyse your cells and fix DNA to the filter paper and preserve it. Your DNA is
+                            stable on the filter paper for up to a year at ambient temperatures.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question3"
+                            class="accordion-title">What does TruMe measure to determine your Biological
+                            age?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer3">To determine your true Biological age TruMe scientists are
+                            measuring the levels of DNA methylation within specific DNA regions. Methylation of DNA
+                            occurs on cytosine residues, especially on specific small DNA regions called CpG islands.
+                            These regions are usually clustered around genes and can affect their activity. Methylation
+                            of CpG islands by DNA methylases has been shown to be associated with gene inactivation and
+                            plays an important role in the development of cancer and cell aging. Reversal of DNA
+                            methylation at these sites is a potential therapeutic strategy as this reversal may restore
+                            gene expression and as the result improve physiological function of the organism.
+                            The methylation status of a DNA sequence can best be determined using bisulfite conversion.
+                            Bisulfite treatment of the target DNA results in conversion of unmethylated cytosine
+                            residues into uracil, leaving the methylated cytosines unchanged. Therefore, bisulfite
+                            treatment gives rise to different DNA sequences for methylated and unmethylated DNA that can
+                            be easily detected by sequencing.
+                            In the lab we sequence 9 small regions of your DNA, and analyze how methylated your DNA is.
+                            This information is further analyzed by our algorithm to determine how old you really are.
+                            Please note, we do not sequence your whole genome. We also do not store your saliva sample
+                            or your DNA. All biological material or DNA sequence data is deleted after our test is
+                            completed.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question4"
+                            class="accordion-title">Is your lab CLIA certified?</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer4">No. TruAge test is a research study. The protocols we use
+                            are suitable for genetic research only, not for clinical genetic testing like you would
+                            receive at a hospital or doctor's office. Clinical genetic testing is held to higher
+                            standards and is done in laboratories, which are certified by governmental regulations
+                            called CLIA (Clinical Laboratory Improvement Amendments). If you use the TruAge data for
+                            diagnostic purposes, you should always contact the doctor and have the results confirmed by
+                            tests recommended by a medical professional.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question5"
+                            class="accordion-title">Can the TruAge test be wrong?</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer5">
+                            Sometimes TruMe reports an inaccurate Biological age. This usually happens when we do not
+                            isolate a sufficient amount of DNA from your sample. Or, if the sample is contaminated. The
+                            contamination usually happens when customs didn’t dry sample enough and we see bacterial or
+                            mold overgrowth on the filter paper. If you see what you think is an error, please feel free
+                            to contact us. Also, keep in mind that these are initial results. As people continue to join
+                            we will continue to update and improve your testing accuracy.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question6"
+                            class="accordion-title">How long does TruMe Labs take to process my test sample?</span><span
+                            class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer6">Results and recommendations are typically released within
+                            1 to 2 weeks of TruMe's lab receiving your sample and completed questionnaire. However, in
+                            some rare circumstances, there may be a wait time of between 4 to 6 weeks. Lab processing
+                            times vary on a case-by-case basis.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span data-i18n="accordion-item.question7"
+                            class="accordion-title">What happens to your DNA at TruMe Labs?</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer7">When we receive your sample at the lab, we scan our sample
+                            identification number into our internal registration system. As soon as a sample has been
+                            scanned, it undergoes its first test — a visual inspection to make sure the sample is not
+                            contaminated or too wet. Occasionally a sample will not pass this step, and we immediately
+                            contact the customer and ship a replacement kit so he or she can spit again. If a sample
+                            passes the visual inspection, it is time for DNA extraction and bisulfite conversion to
+                            differentiate your methylated and unmethylated DNA. Then, the small regions of your DNA are
+                            extracted and sequenced to quantify a percentage of your DNA methylation. We are using
+                            independent laboratory services to perform all sequencing procedures.
+                            Once a sample has been successfully analyzed, the laboratory sends the resulting data to
+                            TruMe along with the barcode that came with the sample. This allows us to return the
+                            information to the proper account and begin interpreting your data. Please note, TruMe does
+                            not need to know your date of birth to be able to calculate your biological age. Yet, we
+                            would like to know your date of birth, your life style, your general health status, and your
+                            race to adjust our algorithm and improve our services.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span data-i18n="accordion-item.question8"
+                            class="accordion-title">How do I request to delete my information?</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer8">TruMe is committed to your privacy rights, and we make it
+                            easy for you to start the process of deleting all information associated with your name. To
+                            request to review, update, or delete your personal information, please email
+                            contact@trumelabs.com using your account email address. For more information on your rights
+                            and how to exercise them, please reference section 12 of TruMe's privacy policy.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span data-i18n="accordion-item.question9"
+                            class="accordion-title">How does TruMe protect my data?</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer9">To ensure confidentiality, we separate users' personally
+                            identifiable information (PII) from their personal health information (PHI). We use multiple
+                            layers of encryption.
+                            TruMe never provides your information to your employer or to your health insurance company.
+                            TruMe does not share your individual-level information with any third party without your
+                            explicit consent.
+                            We do not provide information to law enforcement unless we are required to comply with a
+                            valid subpoena or a court-ordered request.
+                            Read our full Privacy Policy on our footer.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-4" aria-expanded="false"><span data-i18n="accordion-item.question10"
+                            class="accordion-title">Do I need to pay for shipping my test sample to the lab?</span><span
+                            class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer10">If located in the United States, shipping your sample to
+                            TruMe's lab is prepaid via USPS (United States Postal Service).
+
+                            If located outside of the United States (international), customers need to pay for their own
+                            shipping. Please see next article "How to ship test sample from outside of US?" on shipping
+                            samples back to TruMe Labs for more information.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-5" aria-expanded="false"><span data-i18n="accordion-item.question11"
+                            class="accordion-title">How to ship test sample from outside of US?</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p data-i18n="accordion-item.answer11">After collecting your test sample, it will be stable for
+                            up to one year an ambient temperature and would not be compromised during shipping . Note
+                            that when TruMe Lab receives your sample, it may take up to 72 hours to show as "received"
+                            in your TruMe account. If for any reason your sample is compromised or or has issues after
+                            reaching our lab, TruMe will provide a replacement kit.
+
+                            Important: Please be sure your test kit is Registered and your Questionnaire is answered so
+                            that your test sample(s) can be processed by the lab.
+
+                            SHIPPING & SUBMISSION INSTRUCTIONS:
+
+                            1. CN22 Form (Customs Declaration). This form should be attached to the exterior of your
+                            envelope. Be sure to sign and date the form. Please add the following destcription:
+                            "EXEMPT non-biological solution dried on FTA paper, in th eplastic secondary container.
+                            Meets IATA Exemt status."
+                            Weight 28g or 1oz, with total value $10USD.
+                            2. Certificate of non-biological material. This form should be inserted inside your envelope
+                            with your test sample(s).
+
+                            Additional notes:
+
+                            When shipping your samples, use an international courier service (e.g. FedEx, DHL, UPS,
+                            etc.) if you are not able to use "regular post." Be sure to keep your package tracking
+                            number.
+                            Note that international customers must pay for return shipping. TruMe Labs does not cover
+                            any international shipping or customs related costs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="../translation.js"></script>
+
+</body>
+
+</html>

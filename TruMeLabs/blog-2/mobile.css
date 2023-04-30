@@ -1,0 +1,62 @@
+@media screen and (max-width: 450px) {
+    .wrapper {
+        padding: 0px;
+        margin-top: 60px;
+    }
+
+    .page--title {
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 15px;
+    }
+
+    .article-img1-container {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .article-img1 {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    p {
+        margin: 0 0 0 0;
+        width: 100%;
+        padding: 15px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .article-img2 {
+        width: 100%;
+        height: auto;
+    }
+
+    hr {
+        clear: both;
+        border-top: solid rgba(36, 36, 36, 0.5);
+        border-width: 1px 0 0;
+        margin: 30px;
+        height: 0;
+        width: auto;
+    }
+
+    ol {
+        list-style: decimal;
+        margin: 0 0 15px 25px;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .last-text {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 450px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .price-container {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .price {
+        color: #242424;
+        background-color: #f8f8f8;
+        height: auto;
+        width: 100%;
+        margin-right: 150px;
+    }
+
+    .container-img {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

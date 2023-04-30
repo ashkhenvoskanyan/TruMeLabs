@@ -1,0 +1,118 @@
+@media screen and (max-width: 450px) {
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 100px;
+        color: #fff;
+    }
+
+    .founder {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+        background-color: #ff6a45;
+        margin-top: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 700px;
+        color: white;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 80px;
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .founder-img {
+        padding: 30px;
+    }
+
+    .founder-text {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .founder-text-3 {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .labs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('https://cdn.shopify.com/s/files/1/0624/5869/1805/files/Textura_TruMe_Horizontal_1500x.png?v=1663622821');
+        height: 400px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+
+    .labs-text {
+        width: auto;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: #717171;
+        padding: 15px;
+    }
+
+    h2.title {
+        font-size: 30px;
+        line-height: 41px;
+        color: #717171;
+    }
+
+    .main-page-blog {
+        background-color: #ff6a45;
+        height: 1100px;
+    }
+
+    .main-page-blog-wrapper {
+        padding: 0px 0px;
+    }
+
+    .homepage-sections--title {
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    .main-page-blog-carts-item {
+        margin-right: 30px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .main-page-blog-carts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-page-blog-img {
+        height: auto;
+    }
+}
